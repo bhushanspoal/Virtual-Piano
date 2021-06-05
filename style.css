@@ -1,0 +1,210 @@
+body{
+  background-color: #143F6B;
+}
+h1{
+  color: white;
+  font-size: xx-large;
+  font-weight: 400;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.piano{
+    display: flex;
+}
+#play-sound{
+    height: 400px;
+    width: 100px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #333;
+    margin-right: 0px;
+    border-radius: 20px;
+    margin-left: auto;
+  }
+  #play-sound:hover{
+    background-color: rgb(252, 247, 247);
+  }
+  #play-sound1{
+    height: 230px;
+    width: 40px;
+    margin: auto;
+    background-color: black;
+    border: 1px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: -20px;
+    margin-left: -25px;
+    margin-top: 0px;
+    z-index: 2;
+  }
+  #play-sound1:hover{
+    background-color: rgb(61, 60, 60);
+  }
+  #play-sound2{
+    height: 400px;
+    width: 100px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #333;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 20px;
+  }
+  #play-sound2:hover{
+    background-color: rgb(252, 247, 247);
+  }
+  #play-sound3{
+    height: 230px;
+    width: 40px;
+    margin: auto;
+    background-color: black;
+    border: 1px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: -20px;
+    margin-left: -25px;
+    margin-top: 0px;
+    z-index: 2;
+  }
+  #play-sound3:hover{
+    background-color: rgb(61, 60, 60);
+  }
+  #play-sound4{
+    height: 400px;
+    width: 100px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #333;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  #play-sound4:hover{
+    background-color: rgb(252, 247, 247);
+  }
+  #play-sound5{
+    height: 400px;
+    width: 100px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #333;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  #play-sound5:hover{
+    background-color: rgb(252, 247, 247);
+  }
+  #play-sound6{
+    height: 230px;
+    width: 40px;
+    margin: auto;
+    background-color: black;
+    border: 1px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: -20px;
+    margin-left: -25px;
+    margin-top: 0px;
+    z-index: 2;
+  }
+  #play-sound6:hover{
+    background-color: rgb(61, 60, 60);
+  }
+  #play-sound7{
+    height: 400px;
+    width: 100px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #333;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 20px;
+  }
+  #play-sound7:hover{
+    background-color: rgb(252, 247, 247);
+  }
+  #play-sound8{
+    height: 230px;
+    width: 40px;
+    margin: auto;
+    background-color: black;
+    border: 1px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: -20px;
+    margin-left: -25px;
+    margin-top: 0px;
+    z-index: 2;
+  }
+  #play-sound8:hover{
+    background-color: rgb(61, 60, 60);
+  }
+  #play-sound9{
+    height: 400px;
+    width: 100px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #333;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 20px;
+  }
+  #play-sound9:hover{
+    background-color: rgb(252, 247, 247);
+  }
+  #play-sound10{
+    height: 230px;
+    width: 40px;
+    margin: auto;
+    background-color: black;
+    border: 1px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: -20px;
+    margin-left: -25px;
+    margin-top: 0px;
+    z-index: 2;
+  }
+  #play-sound10:hover{
+    background-color: rgb(61, 60, 60);
+  }
+  #play-sound11{
+    height: 400px;
+    width: 100px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #333;
+    margin-left: 0px;
+    margin-right: auto;
+    border-radius: 20px;
+  }
+  #play-sound11:hover{
+    background-color: rgb(252, 247, 247);
+  }
